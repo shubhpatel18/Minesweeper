@@ -63,7 +63,6 @@ public class MineSweeperCell extends Button {
         this.setText(String.valueOf(this.getNearbyMineCount())); // TODO move style to CSS stylessheet
         this.setStyle("-fx-background-color: #aaaaaa; -fx-text-inner-color: #4444ff; -fx-border-color: #444444");
         revealed = true;
-
     }
 
     /**
