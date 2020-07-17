@@ -1,0 +1,11 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+
+<GridPane fx:id="grid" fx:controller="me.shubhpatel.minesweeper.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center">
+
+    <Button fx:id="minesVisibilityToggle" text="Show Mines"
+           GridPane.columnIndex="8" GridPane.columnSpan="3"
+           GridPane.rowIndex="0" GridPane.rowSpan="2"/>
+
+</GridPane>
